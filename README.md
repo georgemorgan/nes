@@ -4,13 +4,13 @@ A while back I decided that I wanted to write a basic NES emulator. Unfortunatel
 
 This project demonstrates how opcodes are parsed by an emulator and how an emulated CPU is represented in memory.
 
-## Usage:
+## Usage
 
 `nes [rom] [step]`
 
 Using the "step" argument makes the emulator step through each instruction being emulated for verbose debugging.
 
-### Sample output:
+### Sample Output
 
 ```
 8000: a9 0a 0a	LDA #$0A
